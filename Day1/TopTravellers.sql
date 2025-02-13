@@ -82,6 +82,14 @@ Donald did not have any rides, the distance traveled by him is 0.
 SELECT 
 NAME AS name, 
 CASE WHEN USERS.ID = RIDES.USER_ID THEN SUM(DISTANCE) ELSE 0 END AS travelled_distance
+ /*COALESCE(SUM(DISTANCE),0) travelled_distance*/
 FROM USERS LEFT JOIN RIDES ON USERS.ID = RIDES.USER_ID
 GROUP BY USERS.ID,RIDES.USER_ID, USERS.NAME
 ORDER BY SUM(DISTANCE) DESC, NAME ASC
+
+'''Python'''
+import pandas as pd
+
+def top_travellers(users: pd.DataFrame, rides: pd.DataFrame) -> pd.DataFrame:
+    new = pd.merge(users, rides, how='left', right_on='user_id', left_on='id').fillna(0)
+    return new.groupby(['id_x', 'name'])['distance'].sum().reset_index(name='travelled_distance')[['name', 'travelled_distance']].sort_values(by=['travelled_distance','name'], ascending=[False,True])
