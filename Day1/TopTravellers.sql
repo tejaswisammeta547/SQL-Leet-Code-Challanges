@@ -1,5 +1,5 @@
-Table: Users
-
+#1407. Top Travellers
+##Table: Users
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -10,8 +10,7 @@ id is the column with unique values for this table.
 name is the name of the user.
  
 
-Table: Rides
-
+##Table: Rides
 +---------------+---------+
 | Column Name   | Type    |
 +---------------+---------+
@@ -22,16 +21,11 @@ Table: Rides
 id is the column with unique values for this table.
 user_id is the id of the user who traveled the distance "distance".
  
-
 Write a solution to report the distance traveled by each user.
-
 Return the result table ordered by travelled_distance in descending order, if two or more users traveled the same distance, order them by their name in ascending order.
-
 The result format is in the following example.
 
- 
-
-Example 1:
+##Example 1:
 
 Input: 
 Users table:
@@ -77,6 +71,8 @@ Elvis and Lee traveled 450 miles, Elvis is the top traveler as his name is alpha
 Bob, Jonathan, Alex, and Alice have only one ride and we just order them by the total distances of the ride.
 Donald did not have any rides, the distance traveled by him is 0.
 
+
+ ##Solution
 '''SQL'''
 /* Write your T-SQL query statement below */
 SELECT 
