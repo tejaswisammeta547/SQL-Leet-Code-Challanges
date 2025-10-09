@@ -37,3 +37,21 @@
 | 33 | 607	| [Sales Person](https://leetcode.com/problems/sales-person/description/) | Easy |
 | 34 | 608	| [Tree Node](https://leetcode.com/problems/tree-node/description/) | Medium |
 | 35 | 1741	| [Find Total Time Spent by Each Employee](https://leetcode.com/problems/find-total-time-spent-by-each-employee/description/) | Easy |
+| 36 |      | [Combine two tables](https://lnkd.in/dumdCXC7) |    |
+| 37 |      | [Employees earning > managers](https://Inkd.in/dKqcFmzY) |    |
+| 38 |      | [Duplicate emails](https://lnkd.in/dJSYfs89) |    |
+| 39 |      | [Customers who never order](https://lnkd.in/dPZPAKFf) |    |
+| 40 |      | [Delete duplicate emails](https://lnkd.in/dEKnD9s3) |    |
+| 41 |      | [Rising temperature](https://lnkd.in/dyZvVYvP) |    |
+| 42 |      | [Employee bonus](https://Inkd.in/d9iTXt-V) |    |
+| 43 |      | [Find customer referee](https://lnkd.in/d5cXjXdb) |    |
+| 44 |      | [Big countries](https://lnkd.in/dAnS54qK) |    |
+| 45 |      | [Classes more than 5 students](https://lnkd.in/dfrUiutd) |    |
+| 46 |      | [Sales person](https://lnkd.in/dwRnf5Df) |    |
+| 47 |      | [Triangle judgement](https://lnkd.in/dwzD-hFn) |    |
+| 48 |      | [Biggest single number](https://lnkd.in/d4F5zHDs) |    |
+| 49 |      | [Not boring movies](https://lnkd.in/d5w8_z65) |    |
+| 50 |      | [Swap salary](https://lnkd.in/dnbCtecM) |    |
+| 51 |      | [Product sales analysis 1](https://lnkd.in/dRj3EBuK) |    |
+| 52 |      | [Project employees 1](https://lnkd.in/dvGHsbKQ) |    |
+| 53 |      | [Sales analysis III](https://lnkd.in/d_y_rxPh) |    |
